@@ -15,8 +15,6 @@ class UserController extends Controller
        //debug
       // dd($users);
     
-       return view('users',[
-           'users' => $users
-       ]); 
+       return view('users',['users' => $users]); 
     }
 }
