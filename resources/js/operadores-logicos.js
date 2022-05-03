@@ -8,4 +8,5 @@ function compras(trabalho1, trabalho2){
     return {comprarPc, comprarCelular,comprarNote, comptarTv }
     
 }
-    console.log(true,true);
+     console.log(compras(true,true));
+     console.log(compras(true,false));
